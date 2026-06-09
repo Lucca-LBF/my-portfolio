@@ -198,3 +198,97 @@ nav ul li a.active {
 
     font-weight: bold;
 }
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+}
+
+    .skill {
+        background: #161616;
+        border: 1px solid rgba(168,85,247,0.25);
+
+        border-radius: 12px;
+        padding: 20px;
+
+    transition: 0.3s;
+}
+
+    .skill:hover {
+    border-color: #a855f7;
+    transform: translateY(-3px);
+}
+
+    .skill i {
+    font-size: 35px;
+}
+
+    .skill span {
+    color: #e3e3e3;
+    font-size: 18px;
+    font-weight: 600;
+}
+    .skill img {
+    width: 32px;
+    height: 32px;
+
+    filter:
+        drop-shadow(0 0 5px #a855f7)
+        drop-shadow(0 0 10px #a855f7);
+}
+    .skill i {
+    font-size: 35px;
+}
+.fa-html5 {
+    color: #e34f26;
+}
+
+.fa-css3-alt {
+    color: #1572b6;
+}
+
+.fa-js {
+    color: #f7df1e;
+}
+
+.fa-python {
+    color: #3776ab;
+}
+.devicon-cplusplus-plain {
+    color: #00599C;
+}
+
+.devicon-arduino-plain {
+    color: #00979D;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 80px 100px;
+    gap: 40px;
+}
+.container-esquerda {
+    width: 450px;
+    background-color: #0f0f0f;
+    border: 2px solid #a855f7;
+    border-radius: 15px;
+    box-shadow:
+        0 0 10px rgba(168, 85, 247, 0.6),
+        0 0 20px rgba(168, 85, 247, 0.4);
+
+    padding: 30px;
+    color: #d0d0d0;
+}
+
+.container-esquerda h1 {
+    color: #a855f7;
+    margin-top: 0;
+}
+.container-esquerda p {
+    line-height: 1.6;
+    font-size: 16px;
+}
