@@ -188,3 +188,13 @@ body::after {
     color: #a855f7;
     font-weight: bold;
 }
+nav ul li a.active {
+    color: #a855f7;
+
+    text-shadow:
+        0 0 5px rgba(168, 85, 247, 0.8),
+        0 0 10px rgba(168, 85, 247, 0.7),
+        0 0 20px rgba(168, 85, 247, 0.6);
+
+    font-weight: bold;
+}
