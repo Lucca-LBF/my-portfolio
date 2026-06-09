@@ -49,10 +49,9 @@
         0 0 20px rgba(164, 50, 226, 0.2);
 }
     .foto-perfil {
-   position: absolute;
-    width: 500px;
+    width: 450px;
     height: auto;
-    margin-top: 10%;
+
     filter:
         drop-shadow(0 0 15px #a855f7)
         drop-shadow(0 0 30px #a855f7);
@@ -150,25 +149,17 @@ body::after {
     }
 }
 
-    .caixa-texto {
-    position: absolute;
-    top: 50%;
-    right: 10%;
-
-    transform: translateY(-50%);
-
+   .caixa-texto {
     width: 450px;
     padding: 30px;
 
     background-color: #0f0f0f;
-
     border: 2px solid #a855f7;
     border-radius: 15px;
 
     box-shadow:
-        0 0 10px #a855f7,
-        0 0 20px rgba(168, 85, 247, 0.7),
-        0 0 40px rgba(168, 85, 247, 0.4);
+        0 0 10px rgba(168, 85, 247, 0.6),
+        0 0 20px rgba(168, 85, 247, 0.4);
 
     color: white;
 }
@@ -291,4 +282,46 @@ nav ul li a.active {
 .container-esquerda p {
     line-height: 1.6;
     font-size: 16px;
+}
+.caixa-links {
+    width: 450px;
+
+    background-color: #0f0f0f;
+    border: 2px solid #a855f7;
+    border-radius: 15px;
+
+    padding: 20px;
+
+    box-shadow:
+        0 0 8px rgba(168, 85, 247, 0.5);
+}
+
+.caixa-links a {
+    display: block;
+    color: #d0d0d0;
+    margin: 8px 0;
+    text-decoration: none;
+}
+.caixa-links a:hover {
+    color: #a855f7;
+}
+.caixa-links h1{
+    color: #a855f7;
+    margin-top: 0;}
+
+.caixa-links a:hover {
+    color: #a855f7;
+}
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 80px 100px;
+}
+
+.coluna-direita {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
