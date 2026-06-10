@@ -162,13 +162,40 @@ nav ul li a.active {
 
     font-weight: bold;
 }
+.skill-info {
+    margin-top: 25px;
+
+    background: #161616;
+
+    border: 1px solid rgba(168,85,247,0.25);
+    border-radius: 12px;
+
+    padding: 20px;
+
+    color: #a855f7;
+    line-height: 1.6;
+
+    min-height: 70px;
+
+    transition: all 0.3s ease;
+}
+
     .skills {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
 }
+.skill.active {
+    border-color: #a855f7;
+
+    box-shadow:
+        0 0 10px rgba(168,85,247,0.5);
+
+    transform: translateY(-3px);
+}
 
     .skill {
+        cursor: pointer;
         background: #161616;
         border: 1px solid rgba(168,85,247,0.25);
 
