@@ -374,3 +374,7 @@ nav ul li a.active {
     line-height: 1.6;
     font-size: 17px;
 }
+.fa-solid.fa-envelope {
+    color: #a855f7;
+    margin-right: 8px;
+}
